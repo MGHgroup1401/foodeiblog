@@ -1,7 +1,7 @@
-<script src="{{ assets/js/overlayscrollbars.browser.es6.min.js }}"></script>
-<script src="{{ assets/js/popper.min.js }}"></script>
-<script src="{{ assets/js/bootstrap.min.js}}"></script>
-<script src="{{ assets/js/adminlte.min.js}}"></script>
+<script src="{{ asset('assets/js/overlayscrollbars.browser.es6.min.js') }}"></script>
+<script src="{{ asset('assets/js/popper.min.js') }}"></script>
+<script src="{{ asset('assets/js/bootstrap.min.js')}}"></script>
+<script src="{{ asset('assets/js/adminlte.min.js')}}"></script>
 <script>
     const SELECTOR_SIDEBAR_WRAPPER = ".sidebar-wrapper";
     const Default = {
