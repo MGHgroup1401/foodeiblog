@@ -22,10 +22,12 @@
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
-                                <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
+                                <li class="nav-item"> <a href="{{ route('admin.post.create') }}"class="nav-link">
+                                     <i class="nav-icon bi bi-circle"></i>
                                         <p>افزودن پست  </p>
                                     </a> </li>
-                                <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-circle"></i>
+                                <li class="nav-item"> <a href="{{ route('admin.post.index') }}"  class="nav-link"> 
+                                    <i class="nav-icon bi bi-circle"></i>
                                         <p>لیست  پست ها</p>
                                     </a> </li>
                             </ul>

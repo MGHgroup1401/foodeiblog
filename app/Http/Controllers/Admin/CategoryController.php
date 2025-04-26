@@ -7,7 +7,6 @@ use App\Http\Requests\Admin\CategoryCreateRequest;
 use App\Http\Requests\Admin\CategoryUpdateRequest;
 use App\Models\Category;
 
-
 class CategoryController extends Controller
 {
     public function index()
